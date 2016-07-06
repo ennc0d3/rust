@@ -1,0 +1,25 @@
+Wed Jul  6 10:14:39 CEST 2016
+
+The Rust book
+	https://doc.rust-lang.org/book
+
+Install/Uninstall
+	curl -sSf https://static.rust-lang.org/rustup.sh | sh
+	sudo /usr/local/lib/rustlib/uninstall.sh
+
+Check the installation
+	rustc --version
+
+Compile and execute
+	cd ~/projects/helloWorld
+	cat main.rs
+	fn main() {
+		println!("Hello World!");
+	}
+	rustc main.rs
+	./main
+
+The build and package manager for rust
+	cargo --version
+
+Carofying the project

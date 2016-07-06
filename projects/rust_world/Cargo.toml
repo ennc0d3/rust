@@ -1,0 +1,6 @@
+[package]
+name = "rust_world"
+version = "0.1.0"
+authors = ["Nagarajan Ganesan <nagarajan.ganesan@ericsson.com>"]
+
+[dependencies]
